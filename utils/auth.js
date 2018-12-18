@@ -1,5 +1,4 @@
 import cookie from "js-cookie";
-import { toggleLogged } from "../store";
 
 export const verifyToken = (username, password) => {
   console.log("api");
